@@ -1,3 +1,7 @@
+# https://bit.ly/rachellivecodestrudel
+
+### laptop, browser, headphones check
+
 # rdwr [strudel](https://strudel.cc/)
 - based on work by [chris peck](https://learningmusic.ableton.com/  ) and [jade rose](https://strudel.cc/workshop/first-sounds/)
 
