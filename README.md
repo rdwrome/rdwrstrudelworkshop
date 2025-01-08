@@ -3,12 +3,13 @@
 
 ## words to live by
 - amplitude: strength of a sound wave (i.e. "loudness")
-- pitch: fundamental frequency of a periodic sound wave (i.e. what you sing when you're trying to sing with something)
-- timbre: frequencies above the fundamental in a complex sound wave (i.e. how you can tell your voice is different than the thing you're trying to sing with)
-- synthesis source: a sound you're changing
-- synthesis modifier: something you're using to change a sound
-- synthesis patch: how parts of a synthesizer are connected (typically used to describe a timbre or sequence, see below)
-- synthesis sequence: a pattern of source or modifier information (typically they're 8 or 18 steps against a computer clock)
+- pitch: lowest frequency of a complex, periodic sound wave (i.e. what you sing when you're trying to sing "with" something)
+- timbre: higher frequencies in a complex, periodic sound wave (i.e. how you can tell your voice is different than the thing you're trying to sing with)
+- synthesis = process of making something 'synthetic' (human-made) with a 'synthesizer'
+- sequence = a repeating pattern where order matters (typically they're 8 or 16 steps against a computer clock)
+- source: a synthesized sound or sequence you are going to change into something else
+- modifier: something you're using to change the amplitude, pitch, or timbre of synthesized sound or a pattern
+- patch: how parts of a synthesizer are connected in terms of source and modifiers
 
 ## Strudel is based on [TidalCycles](https://tidalcycles.org/)
 - [Everything is pattern-based](https://tidalcycles.org/docs/reference/cycles)
@@ -35,6 +36,11 @@
 `s ("bd ~ hh!2")`
 
 **everybody now!**
+
+## Strudel
+- console
+- sounds
+- reference
 
 ## more advanced commands and syntax
 
@@ -68,11 +74,15 @@
 s (" "))`
 
 **stack of example**
+- you gotta watch for what the sound source is
 
-`stack (
-s ("bd(7,12)"),
-s ("hh!16?")
-)`
+`stack(
+  "[bd ~ ~ bd] [~ ~ ~ bd] [~ bd bd ~] [~ ~ ~ ~] ",
+  "[~ ~ ~ ~] [sd ~ ~ ~] [~ ~ ~ ~] [sd ~ ~ ~] ",
+  "[hh ~ hh ~] [hh ~ hh ~] [hh ~ ~ ~] [hh ~ hh ~] ",
+  "[~ ~ ~ ~] [ho ~ ~ ~] [~ ~ ho ~] [~ ~ ~ ~] ",
+).s()`
+
 
 **everybody now!**
 
@@ -113,3 +123,25 @@ s ("hh!16?")
 - 'vowel'
 
 `note ("c <c d e> e").sound("sawtooth").lpf("<400 500>").vowel("<a e i o u>")`
+
+**everybody now!**
+
+## time
+
+- cps
+
+`s("<bd sd>,hh*2").cpm(140)`
+
+- fast
+
+`s("bd hh sd hh").fast(2) `
+
+- slow
+
+`s("bd hh sd hh").slow(2) `
+
+**everybody now!**
+
+## Lab time
+
+## Sharing is Caring
