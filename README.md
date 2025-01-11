@@ -1,6 +1,13 @@
+# WIFI
+## Royalston Library
+## psnewton
+
 # https://bit.ly/rachellivecodestrudel
 
 ### laptop, browser, headphones check
+
+### introductions!
+- name, hometown, best thing you ate over the holidays
 
 # rdwr [strudel](https://strudel.cc/)
 - based on work by [chris peck](https://learningmusic.ableton.com/  ) and [jade rose](https://strudel.cc/workshop/first-sounds/)
@@ -10,7 +17,7 @@
 - pitch: lowest frequency of a complex, periodic sound wave (i.e. what you sing when you're trying to sing "with" something)
 - timbre: higher frequencies in a complex, periodic sound wave (i.e. how you can tell your voice is different than the thing you're trying to sing with)
 - synthesis = process of making something 'synthetic' (human-made) with a 'synthesizer'
-- sequence = a repeating pattern where order matters (typically they're 8 or 16 steps against a computer clock)
+- sequence = a repeating pattern where order matters (typically with synthesizers they're 8 or 16 steps against a computer clock)
 - source: a synthesized sound or sequence you are going to change into something else
 - modifier: something you're using to change the amplitude, pitch, or timbre of synthesized sound or a pattern
 - patch: how parts of a synthesizer are connected in terms of source and modifiers
@@ -41,7 +48,7 @@
 
 **everybody now!**
 
-## Strudel
+## [Strudel Interface](https://strudel.cc/)
 - console
 - sounds
 - reference
@@ -90,7 +97,9 @@ s (" "))`
 
 **everybody now!**
 
-## noted
+## [MIDI NOTES](https://inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies)
+
+## noted (pitch sources)
 
 - define by midi note
 
@@ -114,7 +123,7 @@ s (" "))`
 
 **everybody now!**
 
-## effected
+## effected (timbre modifiers)
 
 - low pass filter
 
@@ -130,7 +139,7 @@ s (" "))`
 
 **everybody now!**
 
-## time
+## time (clock sources and modifiers)
 
 - cps
 
